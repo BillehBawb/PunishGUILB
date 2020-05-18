@@ -1,0 +1,7 @@
+main: com.billehbawb.punishgui.PunishGUI
+version: 2.0
+name: PunishGUI
+commands:
+  punish:
+    description: Used to punish dirty rule breakers.
+    aliases: punishgui

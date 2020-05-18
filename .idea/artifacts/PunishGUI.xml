@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PunishGUI">
+    <output-path>$PROJECT_DIR$/out/artifacts/PunishGUI</output-path>
+    <root id="archive" name="PunishGUI.jar">
+      <element id="module-output" name="PunishGUI2" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
