@@ -10,8 +10,6 @@ import org.bukkit.inventory.ItemStack;
 
 public class GUIClick implements Listener {
 
-    GUIButton clickedButton = null;
-
     @EventHandler
     public void onClick(InventoryClickEvent event) {
         if (event.getClickedInventory().getName() == null || event.getClickedInventory() == null){
@@ -27,7 +25,7 @@ public class GUIClick implements Listener {
             return;
         }
 
-        if (OpenGUI.punishedPlayer == null && OpenGUI.offline == false){
+        if (OpenGUI.punishedPlayer == null && !OpenGUI.offline){
             event.getWhoClicked().sendMessage(ChatColor.AQUA + "Something went wrong! (ER02)");
             return;
         }
