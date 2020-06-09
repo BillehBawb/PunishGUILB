@@ -1,17 +1,16 @@
 package com.billehbawb.punishgui.menu;
 
-import com.billehbawb.punishgui.PunishGUI;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.bukkit.inventory.ItemStack;
 
 @AllArgsConstructor
 @Getter
-public class GUIButton {
+public class PunishButton {
 
-    public ItemStack item;
-    public int slot;
-    public PunishGUI.Action action;
-    public int time;
+    public final ItemStack item;
+    public final int slot;
+    public final PunishAction action;
+    public final int time;
 
 }

@@ -1,7 +1,8 @@
 main: com.billehbawb.punishgui.PunishGUI
-version: 2.0
+version: ${project.version}
 name: PunishGUI
 commands:
   punish:
     description: Used to punish dirty rule breakers.
     aliases: punishgui
+    permission: "punishgui.use"
